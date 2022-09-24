@@ -1,0 +1,140 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    font-weight: bold;
+
+}
+.wrap{
+    position: absolute;
+    margin: auto;
+    width:100%;
+    background-color: white;
+}
+.intro_bg{
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("image/Title Image1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height : 1000px;
+    width:100%;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    padding: auto;
+    height: 100px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.icon{
+    padding-right: 30px;
+    text-align: left;
+    position: absolute;
+    left : 0;
+}
+.searchArea{
+    display: flex;
+    width: 330px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin-top: 24px;
+    justify-content: center;
+    position: absolute;
+    right :45%;
+}
+.searchArea > form > input{
+    border: none;
+    width: 240px;
+    height: 40px;
+    background: rgba(0,0,0,0.0);
+    color: #fff;
+    padding-left: 10px;
+}
+.searchArea > form > span{
+    width: 50px;
+    color: #fff;
+
+    cursor: pointer;
+}
+form > button {
+    cursor : pointer;
+}
+.nav{
+    position :absolute;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    right :0;
+}
+.nav > li{
+    margin-left: 54px;
+
+}
+.nav > li > a {
+    color: #000;
+}
+.contents{
+
+    width : 1000px;
+    display: inline-block;
+}
+ul{
+        margin-top: 10px;
+        display: flex;
+
+        object-fit: cover;
+
+}
+ul li img {
+    width: 100px;
+    padding : 10px;
+}
+.update{
+    width: 1000px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.image{
+
+}
+label{
+    display: block;
+}
+.section{
+    display: block;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.menu img{
+    padding:30px;
+    width:100px
+}
+.menu{
+    position: relative;
+    width :1800px;
+    align-items: center;
+    display: flex;
+}
+.login{
+   margin-left: auto;
+}
+.footer{
+  font-size: 30px;
+}

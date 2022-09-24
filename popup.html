@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script language="JavaScript">
+    function setCookie(name, value, expiredays) {
+        var date = new Date();
+        date.setDate(date.getDate() + expiredays);
+        document.cookie = escape(name) + "=" + escape(value) + "; expires=" + date.toUTCString();
+    }
+
+    function closePopup() {
+        if (document.getElementById("check").value) {
+            setCookie("popupYN", "N", 1);
+            self.close();
+        }
+    }
+</script>
+</head>
+<body>
+    <br>니가 해야할것 : 로그인, 로그아웃 잘되는지, 검색기능 되는지, 이미지 모음 눌러서 업로드도 해보셈 <br>※이 사이트는 타 원신 사이트에 기생하고 있습니다.</br>
+    <input type="checkbox" id="check" onclick="closePopup();">
+    <font size=3> <b>하루에 한번만 보기</b> </font>
+</body>
+</html>
